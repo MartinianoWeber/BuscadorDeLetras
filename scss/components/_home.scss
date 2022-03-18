@@ -1,0 +1,105 @@
+.main{
+
+    background: #009FFF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: auto;
+    height: auto;
+    .main__h1{
+        display: flex;
+        h1{
+            margin-top: 2rem;
+            font-size: 3.5rem;
+        }
+    }
+       
+}
+
+
+.main__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top:7rem;
+    height: 80.3vh;
+        h2{
+            font-size: 3rem;
+        }
+}
+.cambio{
+    height: auto;
+}
+
+.main__buscadores{
+    .main__formulario{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+        gap: 2rem;
+            input{
+                font-size: 2rem;
+                border: none;
+                outline: none;
+            }
+
+        button{
+            background-color: #00ffff;
+            font-size: 1,5rem;
+            border: none;
+            padding: .7rem;
+            border-radius: 0.4rem;
+            transition:1s;
+            cursor: pointer;
+                &:hover{
+                    background-color: #078080;
+                    transition:1s;
+                }
+        }
+    }
+        
+
+        
+}
+
+
+.background__song{
+    width: 500px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.resultado__p{
+    color:$blanco;
+    font-size: 1.5rem;
+    width: 300px;
+    white-space: pre-wrap;
+    letter-spacing: .3rem;
+    margin: auto;
+
+}
+.background__song--error{
+    width: 500px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    height: auto;
+    margin-bottom: 5rem;
+}
+.resultado__p--error{
+    color:$blanco;
+    font-size: 1.5rem;
+    width: 300px;
+    white-space: pre-wrap;
+    letter-spacing: .3rem;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.campos__error{
+    border: 1px solid red;
+    width:300px;
+    margin: auto;
+    margin-top: 1rem;
+    font-size:2rem
+}

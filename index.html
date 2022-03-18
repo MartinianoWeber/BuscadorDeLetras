@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lyrics Songs</title>
+</head>
+<body>
+    <main class="main">
+        <div class="main__h1">
+            <h1 class="subrayado margin-auto">Buscador de letras</h1>
+        </div>
+        <div id="cambio" class="main__grid centrar-texto">
+            <div>
+                <h2>Buscador</h2>
+                <div class="main__buscadores">
+                    <form name="formulario" class="main__formulario" action="">
+                        <input type="text" placeholder="Nombre de Artista" name="" id="artista">
+                        <input type="text" placeholder="Nombre de Cancion" name="" id="cancion">
+                        <button id="btnBusqueda">Buscar cancion</button>
+                    </form>
+                    <div id="errorCampos"></div>
+                </div>
+            </div>
+            <div>
+                <h2>Resultado de tu letra</h2>
+                <div  class="background__song">
+                    <div id="resultados"></div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </main>
+    <script src="/js/main.js"></script>
+</body>
+</html>
